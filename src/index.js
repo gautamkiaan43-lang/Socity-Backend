@@ -49,7 +49,7 @@ const server = http.createServer(app);
 initSocket(server);
 
 app.use(cors({
-  origin: ['https://socity.kiaantechnology.com', 'http://localhost:3000'],
+  origin: ['https://socity.kiaantechnology.com', 'http://localhost:3000','https://society02.netlify.app'],
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization']
